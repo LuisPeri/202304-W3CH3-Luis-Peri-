@@ -1,3 +1,4 @@
+import { Component } from "./component";
 
 export class Header extends Component {
   constructor(selector: string, public title: string) {

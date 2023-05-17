@@ -1,7 +1,9 @@
 export abstract class Component {
   template!: string;
   element: Element;
-  constructor(public selector: string) {}
+  constructor(public selector: string) {
+    this.selector = selector;
+  }
 
   render(position: InsertPoisition = "beforeend") {
     const parentElement = document.querySelector(this.selector);
