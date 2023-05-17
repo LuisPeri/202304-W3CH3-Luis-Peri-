@@ -1,3 +1,4 @@
+
 import { Component } from "./component";
 
 export class Pet extends Component {
@@ -50,3 +51,4 @@ export class Pet extends Component {
     return `<ul>${list}</ul>`;
   }
 }
+
